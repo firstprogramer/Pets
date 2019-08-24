@@ -82,7 +82,7 @@ public class CatalogActivity extends AppCompatActivity {
             displayView.setText("The pets table contains: " + cursor.getCount() + "pets.\n\n");
             displayView.append(PetEntry._ID + "--" + PetEntry.COL_NAME + "--" +
                      PetEntry.COL_BREED + "--" + PetEntry.COL_GENDER + "--" + PetEntry.COL_NAME +"\n");
-
+            // this line to check commit to github
             // obtain the index of each column
             int idColumnIndex = cursor.getColumnIndex(PetEntry._ID);
             int nameColumnIndex = cursor.getColumnIndex(PetEntry.COL_NAME);

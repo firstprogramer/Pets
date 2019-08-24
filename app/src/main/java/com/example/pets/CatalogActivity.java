@@ -82,9 +82,7 @@ public class CatalogActivity extends AppCompatActivity {
             displayView.setText("The pets table contains: " + cursor.getCount() + "pets.\n\n");
             displayView.append(PetEntry._ID + "--" + PetEntry.COL_NAME + "--" +
                      PetEntry.COL_BREED + "--" + PetEntry.COL_GENDER + "--" + PetEntry.COL_NAME +"\n");
-            // aiwa
-            // obta    in the index of each column
-            ///lklkl
+            // just for check push to git
             int idColumnIndex = cursor.getColumnIndex(PetEntry._ID);
             int nameColumnIndex = cursor.getColumnIndex(PetEntry.COL_NAME);
             int breedColumnIndex = cursor.getColumnIndex(PetEntry.COL_BREED);
